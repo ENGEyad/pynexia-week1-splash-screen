@@ -1,0 +1,13 @@
+<resources>
+    <string name="logo_description">Pynexia learning project logo</string>
+    <string name="eyebrow">PYNEXIA / WEEK 01</string>
+    <string name="app_name">Pynexia Splash</string>
+    <string name="headline">Every journey\nstarts here.</string>
+    <string name="intro">A little curiosity.\nA world of possibilities.</string>
+    <string name="loading">Getting things ready…</string>
+    <string name="welcome">Welcome aboard.</string>
+    <string name="ready">Your next chapter starts with one small step.</string>
+    <string name="home_label">YOU HAVE ARRIVED</string>
+    <string name="home_body">The introduction is complete. Explore, build, and keep learning.</string>
+    <string name="close">Finish</string>
+</resources>

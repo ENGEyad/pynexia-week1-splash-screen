@@ -1,0 +1,7 @@
+Native Android Splash Screen App built with Java and XML. The branded introduction includes a logo fade/scale animation and a 2.2-second foreground delay implemented with Handler. An explicit Intent opens MainActivity, and the splash Activity finishes to prevent returning to it with Back. The delay pauses in the background and callbacks are removed during Activity cleanup.
+
+Run: open the source folder in Android Studio, sync Gradle, and run the splash module. Requires Android 8.0/API 26 or later; compile/target SDK 35. Launch the app to see the automatic transition. Background the app during the introduction and return to verify lifecycle handling.
+
+Validation: debug APK built successfully; 2 Android instrumentation tests passed on a Pixel 8 emulator (Android 17/API 37). Android Lint completed with zero errors; non-blocking warnings are documented. Source code, Gradle Wrapper, APK, screenshots and verification reports are included in the attached ZIP. Android 12+ also displays its system launch splash before the assignment's introductory Activity.
+
+Hosted URL: project showcase with actual screenshots and APK/PDF downloads; not a browser emulator. The ZIP also includes a bilingual implementation report.
